@@ -1,0 +1,37 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.contenedor{
+	position:relative;
+	top:125px;
+	background:black;
+}
+.resultado{
+	font-size:30px;
+	font-family: Arial,Helvetica;
+	color:black;
+	border:0px;
+	background:yellow;
+	width:325.8px;
+	height:80px;
+	text-align:right;
+}
+.columna1{
+	font-size:30px;
+	font-family: Arial,Helvetica;
+	color:black;
+	border:0px;
+	background:#D6CFC9;
+	width:80px;
+	height:80px;
+}
+.columna2{
+	font-size:30px;
+	font-family: Arial,Helvetica;
+	color:white;
+	border:0px;
+	background:#FF821C;
+	width:80px;
+	height:80px;
+}

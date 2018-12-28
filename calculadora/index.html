@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+<body onload="init();">
+	<div>
+		<form>
+			<table>
+				<tr>
+					<td colspan="4"><input class="resultado" id="pantalla" type="text" value=""></td>
+				</tr>
+				<tr>
+					<td><input class="fila" id="reset" type="button" value="AC"></td>
+					<td><input class="fila" id="backspace" type="button" value="←"></td>
+					<td><input class="fila" id="porcentaje" type="button" value="%"></td>
+					<td><input class="columna2" id="divicion" type="button" value="÷"></td>
+				</tr>
+				<tr>
+					<td><input class="columna1" id="numero7" type="button" value="7"></td>
+					<td><input class="columna1" id="numero8" type="button" value="8"></td>
+					<td><input class="columna1" id="numero9" type="button" value="9"></td>
+					<td><input class="columna2" id="multiplicacion" type="button" value="x"></td>
+					
+				</tr>
+				<tr>
+					<td><input class="columna1" id="numero4" type="button" value="4"></td>
+					<td><input class="columna1" id="numero5" type="button" value="5"></td>
+					<td><input class="columna1" id="numero6" type="button" value="6"></td>
+					<td><input class="columna2" id="resta" type="button" value="-"></td>
+				</tr>
+				<tr>
+					<td><input class="columna1" id="numero1" type="button" value="1"></td>
+					<td><input class="columna1" id="numero2" type="button" value="2"></td>
+					<td><input class="columna1" id="numero3" type="button" value="3"></td>
+					<td><input class="columna2" id="suma" type="button" value="+"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input class="columna1" id="cero" type="button" value="0"></td>
+					<td><input class="columna1" id="decimal" type="button" value="."></td>
+					<td><input class="columna2" id="igual" type="button" value="="></td>
+					
+				</tr>
+			</table>
+		</form>
+	<script language="javascript" type="text/javascript" src="Calculadora.js"></script>	
+	</div>
+</body>
+</html>
